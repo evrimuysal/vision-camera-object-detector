@@ -1,0 +1,14 @@
+{
+  "name": "vision-camera-object-detector",
+  "version": "1.0.0",
+  "description": "VisionCamera Frame Processor Plugin for object detection with bounding boxes using MLKit",
+  "main": "src/index.ts",
+  "react-native": "src/index.ts",
+  "source": "src/index.ts",
+  "private": true,
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "react-native-vision-camera": "*"
+  }
+}
