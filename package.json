@@ -9,6 +9,10 @@
   "peerDependencies": {
     "react": "*",
     "react-native": "*",
-    "react-native-vision-camera": "*"
+    "react-native-vision-camera": ">=4.0.0",
+    "react-native-worklets-core": "*"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
   }
 }

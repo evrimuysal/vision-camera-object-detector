@@ -6,7 +6,9 @@ module.exports = {
         packageImportPath: 'import com.visioncameraobjectdetector.VisionCameraObjectDetectorPackage;',
         packageInstance: 'new VisionCameraObjectDetectorPackage()',
       },
-      ios: null, // No iOS implementation yet
+      ios: {
+        podspecPath: './VisionCameraObjectDetector.podspec',
+      },
     },
   },
 };
